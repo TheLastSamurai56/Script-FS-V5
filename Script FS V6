@@ -48,7 +48,7 @@ if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name =
         
 end 
 local destruction = false
-if plr.Name == 'mehr_777' or plr.Name == 'IIIevanIII00' then
+if plr.Name == 'mehr_777' or plr.Name == 'IIIevanIII00' or plr.Name'shxdow3404' then
 destruction = true
 end
 
