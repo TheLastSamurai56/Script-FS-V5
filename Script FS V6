@@ -315,7 +315,14 @@ elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hmm") the
         game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam hammer attack";
-})         
+})    
+elseif string.find(C, Prefix .. "") or string.find(C, Prefix .. "animdance") then
+    
+
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "D4RKLXZY/The Last Samurai";
+    Text = "Spam hammer attack";
+})    
 elseif string.find(C, Prefix .. "trash") or string.find(C, Prefix .. "trash") then
     local lplr = game.Players.LocalPlayer  
     Players = game.Players.LocalPlayer.Character
@@ -611,7 +618,7 @@ elseif string.find(C, Prefix .. "lg") or string.find(C, Prefix .. "lg") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = D4RKLXZY/The Last Samurai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam Light Grenade";
 
 })   
