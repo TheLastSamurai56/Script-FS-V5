@@ -36,7 +36,7 @@ no.TextWrapped = true
 end
 
 local plr = game.Players.LocalPlayer
-if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042' then
+if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042'or plr.Name == 'tflox3'or plr.Name == 'Son_Gohan3404'then
    
     yes()
     
@@ -48,7 +48,7 @@ if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name =
         
 end 
 local destruction = false
-if plr.Name == 'mehr_777' or plr.Name == 'iiievaniii00' then
+if plr.Name == 'mehr_777' or plr.Name == 'IIIevanIII00' then
 destruction = true
 end
 
