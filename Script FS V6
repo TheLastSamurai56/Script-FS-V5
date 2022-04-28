@@ -1,4 +1,56 @@
+function yes()
+local ScreenGui = Instance.new("ScreenGui")
+local yes = Instance.new("TextLabel")
+ 
+ ScreenGui.Parent = game.CoreGui
 
+yes.Parent = ScreenGui
+yes.BackgroundColor3 = Color3.fromRGB(255,255,255)
+yes.BackgroundTransparency = 1.000
+yes.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
+yes.Size = UDim2.new(0, 370, 0, 235)
+yes.Font = Enum.Font.SciFi
+yes.Text = "Script of Milhane34042 and TheGreatASASYN"
+yes.TextColor3 = Color3.fromRGB(66, 145, 4)
+yes.TextSize = 50.000
+yes.TextWrapped = true
+    wait(2)
+    yes.Visible = false
+end
+function no()
+local ScreenGui = Instance.new("ScreenGui")
+local no = Instance.new("TextLabel")
+ 
+ ScreenGui.Parent = game.CoreGui
+
+no.Parent = ScreenGui
+no.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no.BackgroundTransparency = 1.000
+no.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
+no.Size = UDim2.new(0, 370, 0, 235)
+no.Font = Enum.Font.SciFi
+no.Text = "You are not autorised"
+no.TextColor3 = Color3.fromRGB(255,0,0)
+no.TextSize = 50.000
+no.TextWrapped = true
+end
+
+local plr = game.Players.LocalPlayer
+if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042' then
+   
+    yes()
+    
+ -- blacklist 
+       else
+      no()
+       game.Workspace.Live[plr.Name]:Destroy()
+       
+        
+end 
+local destruction = false
+if plr.Name == 'mehr_777' or plr.Name == 'iiievaniii00' then
+destruction = true
+end
 
 
 local cmd1 = "-dt, grab someone"
@@ -68,7 +120,7 @@ local Player = game.Players.LocalPlayer
 Player.Chatted:connect(function(cht)
 	if cht:match("-cmds") then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "FS Cmds By D4RKLXZY/Last Samourai";
+			Title = "FS Cmds By D4RKLXZY/The Last Samurai";
 			Text = "Press F9 To View The Cmds";
 		})
 		print(cmd1)
@@ -138,7 +190,7 @@ end)
 repeat wait(4) until game:IsLoaded()
 
            game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Pourquoi tu script?  /  What you use script?";
  
 })
@@ -199,7 +251,7 @@ local Zaros = 2651456105
 local HyperbolicTimeChamber = 882375367
 
 Player.Chatted:Connect(function(C)
-     if  string.find(C, Prefix .. "D4RKLXZY/Last Samourai") or string.find(C, Prefix .. "D4RKLXZY/Last Samourai") then
+     if  string.find(C, Prefix .. "D4RKLXZY/The Last Samurai") or string.find(C, Prefix .. "D4RKLXZY/The Last Samurai") then
  
      print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D4LXZY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Hello Welcome To My Commands Script for Final Stand Im New To scripting so Errors can be found in this Model Hope you enjoy and ill try to keep it updated ;D\n \n")
      print("\n\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Teleport Utility~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Use !rejoin Or !rj : To rejoin The same Server/Place You're in \n\n Use !earth : To teleport to Earth\n\n Use !space : To teleport to Space\n\n Use !Future : To teleport to The Future \n\n Use !secretworld Or !sw : To teleport to The SecretWorld \n\n Use !queue : To teleport to Queue\n\n Use !zaros : To teleport to Zaros \n\n Use ~hyperbolictimechamber Or !htc : To teleport to The HyperbolicTimeChamber ⚠️Needs The Gamepass⚠️")
@@ -217,7 +269,7 @@ elseif string.find(C, Prefix .. "beerusstand") or string.find(C, Prefix .. "be")
  
         beerusx()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Beerus position";
 })
 
@@ -226,7 +278,7 @@ elseif string.find(C, Prefix .. "babaidle") or string.find(C, Prefix .. "bi") th
   
       babaidle()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Baba position";
 })
 
@@ -244,7 +296,7 @@ elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hm") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam hammer attack";
 })  
 elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hmm") then
@@ -261,7 +313,7 @@ elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hmm") the
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam hammer attack";
 })         
 elseif string.find(C, Prefix .. "trash") or string.find(C, Prefix .. "trash") then
@@ -280,7 +332,7 @@ elseif string.find(C, Prefix .. "trash") or string.find(C, Prefix .. "trash") th
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam Trash attack";
 })       
 elseif string.find(C, Prefix .. "spamki") or string.find(C, Prefix .. "sk") then
@@ -306,7 +358,7 @@ elseif string.find(C, Prefix .. "spamki") or string.find(C, Prefix .. "sk") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Auto attack ki damage";
 })    
 elseif string.find(C, Prefix .. "spammelee1") or string.find(C, Prefix .. "sm") then
@@ -333,7 +385,7 @@ elseif string.find(C, Prefix .. "spammelee1") or string.find(C, Prefix .. "sm") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Auto attack melee 1";   
 })  
 elseif string.find(C, Prefix .. "spammelee2") or string.find(C, Prefix .. "am") then
@@ -358,7 +410,7 @@ elseif string.find(C, Prefix .. "spammelee2") or string.find(C, Prefix .. "am") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Auto attack melee 2";
 })  
 
@@ -379,7 +431,7 @@ elseif string.find(C, Prefix .. "ad") or string.find(C, Prefix .. "ad") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Auto ki distance";
 })          
 elseif string.find(C, Prefix .. "at") or string.find(C, Prefix .. "at") then
@@ -396,7 +448,7 @@ elseif string.find(C, Prefix .. "at") or string.find(C, Prefix .. "at") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam Wolf Fang";
 })  
 
@@ -423,8 +475,8 @@ elseif string.find(C, Prefix .. "lecondu266") or string.find(C, Prefix .. "lecon
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
-    Text = "Spam pour Romain XD ";
+    Title = "D4RKLXZY/The Last Samurai";
+    Text = "Spam pour lecondu266 XD ";
 })  
 elseif string.find(C, Prefix .. "shield") or string.find(C, Prefix .. "shield") then
     local lplr = game.Players.LocalPlayer  
@@ -440,7 +492,7 @@ elseif string.find(C, Prefix .. "shield") or string.find(C, Prefix .. "shield") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam shield ";
 })  
 elseif string.find(C, Prefix .. "ex") or string.find(C, Prefix .. "explosion") then
@@ -460,7 +512,7 @@ elseif string.find(C, Prefix .. "ex") or string.find(C, Prefix .. "explosion") t
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam explosion ";
 
 })    
@@ -478,7 +530,7 @@ elseif string.find(C, Prefix .. "fs") or string.find(C, Prefix .. "fs") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Spam little combo";
 
 })     
@@ -496,7 +548,7 @@ elseif string.find(C, Prefix .. "grab") or string.find(C, Prefix .. "grab") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Grab";
 
 })   
@@ -520,7 +572,7 @@ elseif string.find(C, Prefix .. "fusils") or string.find(C, Prefix .. "fusils") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Tu vas te faire fusiller CHEH !";
 
 })     
@@ -539,7 +591,7 @@ elseif string.find(C, Prefix .. "disk") or string.find(C, Prefix .. "disk") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Tu vas te faire charcuter miskine";
 
 })                 
@@ -559,7 +611,7 @@ elseif string.find(C, Prefix .. "lg") or string.find(C, Prefix .. "lg") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = D4RKLXZY/Last Samourai";
+    Title = D4RKLXZY/The Last Samurai";
     Text = "Spam Light Grenade";
 
 })   
@@ -576,7 +628,7 @@ elseif string.find(C, Prefix .. "final kamehameha") or string.find(C, Prefix .. 
         wait()
     end
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Final Kamehameha";
 })  
 elseif string.find(C, Prefix .. "all kamehameha") or string.find(C, Prefix .. "ak") then
@@ -602,7 +654,7 @@ elseif string.find(C, Prefix .. "all kamehameha") or string.find(C, Prefix .. "a
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "All kamehameha";
 }) 
 elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "os") then
@@ -614,7 +666,7 @@ elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "o
     --Wear this: https://www.roblox.com/catalog/2493718915/The-High-Seas-Beatrix-The-Pirate-Queen-Hat
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Others scripts";
 })         
 
@@ -622,7 +674,7 @@ elseif string.find(C, Prefix .. "whisidle") or string.find(C, Prefix .. "whis") 
 
     whis()
          game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Whis position";
 })
 
@@ -633,7 +685,7 @@ elseif string.find(C, Prefix .. "godmode") or string.find(C, Prefix .. "gm") the
             Stats:WaitForChild("Phys-Resist"):Destroy()
             Stats:WaitForChild("Ki-Resist"):Destroy()
        game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Use it Again To reset";
  
 })
@@ -656,7 +708,7 @@ pcall(function()
 end)
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Rejoin For Normal Chat";
  
 })
@@ -672,7 +724,7 @@ end)
 
 game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Position = UDim2.new(0, 0, 0, 146)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Rejoin To Hide";
  
 })
@@ -687,7 +739,7 @@ elseif string.find(C, Prefix .. "speed") or string.find(C, Prefix .. "sd")then
          loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/Teleport%20Speed.lua'))()
   
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Press 'Q' To Toggle Speed and Again to Untoggle";
  
 })
@@ -696,7 +748,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
          local Character = Player.Character
  game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Rejoin To Show";
  
 })
@@ -713,7 +765,7 @@ end
 	
  game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Hard Reset To Show";
  
 })
@@ -728,7 +780,7 @@ end
 end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Top Respawn Activated";
 })
 elseif string.find(C, Prefix .. "stoptimers") or string.find(C, Prefix .. "st")then
@@ -741,7 +793,7 @@ game:GetService("RunService").Stepped:Connect(function()
                     end
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Heaven and 2XP Timers are Stopped";
 })
 elseif string.find(C, Prefix .. "earth") then
@@ -804,20 +856,20 @@ end
 		local Humanoid = Character:FindFirstChild("Humanoid")
        Player.Character.Humanoid.Health = 0
          game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Successfully Reseted";
 })
        
        elseif string.find(C, Prefix .. "hdgraphics") or string.find(C, Prefix .. "hg") then 
      loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/graphicsOrShadders.lua'))()
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "FS cmds";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Graphics/Shadders Activated";
 })
 elseif string.find(C, Prefix .. "noslow") or string.find(C, Prefix .. "ns") then
         loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/Noslow.lua'))()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "No Slow Activated";
 })
 
@@ -827,7 +879,7 @@ elseif string.find(C, Prefix .. "PowerInpact") or string.find(C, Prefix .. "pi")
 
 game.Workspace.Live[Player.Name]["Power Impact"].Activator["Crash"]:Destroy()
 			 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Power Impact position";
 })
 
@@ -837,7 +889,7 @@ game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.B
 
 game.Workspace.Live[Player.Name]["Dragon Throw"].Activator["Flip"]:Destroy()
 	 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Dragon Throw Activated";
 })
 
@@ -848,7 +900,7 @@ game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.B
 game.Workspace.Live[Player.Name]["Dragon Crush"].Activator["Flip"]:Destroy()
  
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Dragon Crush Activated";
 })   
 
@@ -858,7 +910,7 @@ elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "o
     loadstring(game:HttpGet(('https://pastebin.com/raw/T2iJDHi8'),true))()
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "other scripts Activated";
 })
 elseif string.find(C, Prefix .. "bonecrush") or string.find(C, Prefix .. "abc") then
@@ -870,7 +922,7 @@ elseif string.find(C, Prefix .. "bonecrush") or string.find(C, Prefix .. "abc") 
     wait()
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Bone Crush Activated";
 })
 
@@ -883,7 +935,7 @@ game.Workspace.Live[Player.Name]["Bone Crush"].Activator["Crash"]:Destroy()
 
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Bone Crush Activated";
 })
 
@@ -892,7 +944,7 @@ elseif string.find(C, Prefix .. "infiniteform") or string.find(C, Prefix .. "if"
 game.Players.LocalPlayer.Character.HumanoidRootPart['SaiyanAuraWeak']:Remove()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4RKLXZY/Last Samourai";
+    Title = "D4RKLXZY/The Last Samurai";
     Text = "Infinite Form Activated";
     
 })
@@ -977,7 +1029,7 @@ elseif string.find(C, Prefix .. "auto broly melee") or string.find(C, Prefix .. 
                     Twn.Completed:Wait()
                 end
                 wait()
-                print("By Dark-L4xzy#9975")
+                print("By Dark-L4xzy#9975 and ㄒ卄乇   ㄥ卂丂ㄒ  丂卂爪ㄩ尺卂ï#6860")
                 wait()
                 print("Broly Loaded")
                 --[[ Credits ]]
@@ -985,7 +1037,7 @@ elseif string.find(C, Prefix .. "auto broly melee") or string.find(C, Prefix .. 
                     "SendNotification",
                     {
                         Title = "Credits(Dare you to skid this)",
-                        Text = "Made By Dark-L4xzy#9975",
+                        Text = "Made By Dark-L4xzy#9975 and ㄒ卄乇   ㄥ卂丂ㄒ  丂卂爪ㄩ尺卂ï#6860",
                         Duration = "30"
                     }
                 )
@@ -996,7 +1048,7 @@ elseif string.find(C, Prefix .. "auto broly melee") or string.find(C, Prefix .. 
                     function()
                         if Settings.Promotepls == true then
                             while wait(8) do
-                                local A_1 = "By Dark-L4xzy#9975"
+                                local A_1 = "By Dark-L4xzy#9975 and ㄒ卄乇   ㄥ卂丂ㄒ  丂卂爪ㄩ尺卂ï#6860"
                                 local A_2 = "All"
                                 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                                 Event:FireServer(A_1, A_2)
@@ -1565,7 +1617,7 @@ elseif string.find(C, Prefix .. "auto broly melee") or string.find(C, Prefix .. 
                     end)
                     
                     game:GetService("StarterGui"):SetCore("SendNotification", {
-                        Title = "D4RKLXZY/Last Samourai";
+                        Title = "D4RKLXZY/The Last Samurai";
                         Text = "Broly for melee actived";
                     })         
 end
@@ -1661,7 +1713,7 @@ end)
                         "SendNotification",
                         {
                             Title = "Credits(Dare you to skid this)",
-                            Text = "Made By Dark-L4xzy#9975",
+                            Text = "Made By Dark-L4xzy#9975 and ㄒ卄乇   ㄥ卂丂ㄒ  丂卂爪ㄩ尺卂ï#6860",
                             Duration = "30"
                         }
                     )
@@ -1672,7 +1724,7 @@ end)
                         function()
                             if Settings.Promotepls == true then
                                 while wait(8) do
-                                    local A_1 = "D4LXZY (Roblox)"
+                                    local A_1 = "D4LXZY (Roblox) and TheGreatASASYN (Roblox)"
                                     local A_2 = "All"
                                     local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                                     Event:FireServer(A_1, A_2)
@@ -2241,7 +2293,7 @@ end)
                         end)
                         
                         game:GetService("StarterGui"):SetCore("SendNotification", {
-                            Title = "D4RKLXZY/Last Samourai";
+                            Title = "D4RKLXZY/The Last Samurai";
                             Text = "Broly for ki dmg actived";
                         })         
 
@@ -2289,7 +2341,7 @@ end)
     end
     function freeze2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Freeze Activated, Press K To Use";
         })
     end
@@ -2317,7 +2369,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "FS";
                 })
                 while true do
@@ -2331,7 +2383,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stopFS";
                             })
 
@@ -2379,7 +2431,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stopSK";
                             })
                         end
@@ -2403,7 +2455,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "SM";
                 })
                 while true do
@@ -2426,7 +2478,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stopSM";
                             })
                         end
@@ -2450,7 +2502,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "AM";
                 })
                 while true do
@@ -2473,7 +2525,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stopAM";
                             })
                         end
@@ -2497,7 +2549,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "AT";
                 })
                 while true do
@@ -2511,7 +2563,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stopAK";
                             })
                         end
@@ -2535,7 +2587,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "AK";
                 })
                 while true do
@@ -2586,7 +2638,7 @@ end)
     end
     function glt()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Je vais l'enculer comme jamais, ce fils de pute!";
         })
     end
@@ -2603,26 +2655,14 @@ end)
     end)
     function credits1()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "By Milhane34042 / Dark-L4xzy#9975";
         })
     end
     function credits2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
-            Text = "By D4LXZY, Milhane34042 / Dark-L4xzy#9975";
-        })
-    end
-    function credits3()
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
-            Text = "By D4RKLXZY/Last Samourai";
-        })
-    end
-    function credits4()
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
-            Text = "By D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
+            Text = "By TheGreatASASYN / ㄒ卄乇   ㄥ卂丂ㄒ  丂卂爪ㄩ尺卂ï#6860";
         })
     end
     local Player = game.Players.LocalPlayer
@@ -2631,10 +2671,6 @@ end)
             credits1()
             wait(5)
             credits2()
-            wait(5)
-            credits3()
-            wait(5)
-            credits4()
             wait(5)       
         end
     end)
@@ -2643,7 +2679,7 @@ end)
 
   function halox()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-                Title = "D4RKLXZY/Last Samourai";
+                Title = "D4RKLXZY/The Last Samurai";
                 Text = "Halo Removed";
             })
     end
@@ -2668,7 +2704,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2691,7 +2727,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2715,7 +2751,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2738,7 +2774,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2780,7 +2816,7 @@ end)
     end
     function freeze2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Freeze Activated, Press K To Use";
         })
     end
@@ -2807,7 +2843,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2830,7 +2866,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2854,7 +2890,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2877,7 +2913,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2901,7 +2937,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2924,7 +2960,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2948,7 +2984,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -2971,7 +3007,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -2995,7 +3031,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3018,7 +3054,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3042,7 +3078,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3065,7 +3101,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3089,7 +3125,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3112,7 +3148,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3137,7 +3173,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3148,7 +3184,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3172,7 +3208,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3192,7 +3228,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3216,7 +3252,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3233,7 +3269,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3257,7 +3293,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3277,7 +3313,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3301,7 +3337,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3318,7 +3354,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3342,7 +3378,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3365,7 +3401,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3389,7 +3425,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3407,7 +3443,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3431,7 +3467,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3445,7 +3481,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3469,7 +3505,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3492,7 +3528,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3516,7 +3552,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3536,7 +3572,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3560,7 +3596,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3580,7 +3616,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3604,7 +3640,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4RKLXZY/Last Samourai";
+                    Title = "D4RKLXZY/The Last Samurai";
                     Text = "Violent";
                 })
                 while true do
@@ -3615,7 +3651,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4RKLXZY/Last Samourai";
+                                Title = "D4RKLXZY/The Last Samurai";
                                 Text = "stop";
                             })
                         end
@@ -3627,8 +3663,8 @@ end)
     end
     function testttt()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
-            Text = "c'est le plus gros test du monde mon ami!!!!!!!!!!";
+            Title = "D4RKLXZY/The Last Samurai";
+            Text = "Un giga spam avec toutes les attaques du jeu";
         })
     end
     local Player = game.Players.LocalPlayer
@@ -3672,7 +3708,7 @@ end)
 
     function invis1()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Use -re, to become visible";
         })
     end
@@ -3685,14 +3721,14 @@ end)
     end)
 
     function respawn()
-    -- Script generated by SimpleSpy - credits to Dark-L4xzy#9975
+    -- Script generated by SimpleSpy - credits to D4RKLXZY/The Last Samurai
 
     local args = {
         [1] = workspace.FriendlyNPCs:FindFirstChild("Hair Stylist")
     }
 
     game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
-    -- Script generated by SimpleSpy - credits to Dark-L4xzy#9975
+    -- Script generated by SimpleSpy - credits to D4RKLXZY/The Last Samurai
     wait(.3)
     local args = {
         [1] = {
@@ -3702,7 +3738,7 @@ end)
 
     game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
     wait(.3)
-    -- Script generated by SimpleSpy - credits to Dark-L4xzy#9975
+    -- Script generated by SimpleSpy - credits to D4RKLXZY/The Last Samurai
 
     local args = {
         [1] = "woah"
@@ -3712,7 +3748,7 @@ end)
     end
     function respawn2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Respawning..";
         })
     end
@@ -3731,7 +3767,7 @@ end)
 
     function antiq2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Anti-Wormhole Activated";
             })
     end
@@ -3749,7 +3785,7 @@ end)
     end
     function disable2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Disabling All...";
         })
     end
@@ -3764,11 +3800,11 @@ end)
 
     function glitcht()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Anti-Bug Activated, (-gm recommended)";
         })
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Press P For Insta-Respawn";
         })
     end
@@ -3790,7 +3826,7 @@ end
 
 function antiq2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Anti-Wormhole Activated";
         })
 end
@@ -3808,7 +3844,7 @@ function disable()
 end
 function disable2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Disabling All...";
         })
         end
@@ -3830,7 +3866,7 @@ end
 
 function antitpua2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4RKLXZY/Last Samourai";
+            Title = "D4RKLXZY/The Last Samurai";
             Text = "Anti-Tpua Activated";
         })
 end
