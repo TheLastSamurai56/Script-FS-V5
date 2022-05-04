@@ -4596,7 +4596,7 @@ if not game:IsLoaded() then
         end)
 
 local plr = game.Players.LocalPlayer
-if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042'or plr.Name == 'tflox3'or plr.Name == 'Son_Gohan3404'then
+if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042'or plr.Name == 'tflox3'or plr.Name == 'Son_Gohan3404'or plr.Name == 'Baffio00'then
    
     yes()
     
